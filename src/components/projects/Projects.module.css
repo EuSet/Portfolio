@@ -1,0 +1,15 @@
+.projects{
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+.projectsContainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.projectList{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

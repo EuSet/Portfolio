@@ -1,0 +1,28 @@
+.contacts {
+    height: 100vh;
+    background-color: darkkhaki;
+}
+.contactsContainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+ }
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input, textarea{
+    width: 400px;
+}
+
+.sendBtn{
+    min-height: 30px;
+    width: 70px;
+    background-color: #4b4bb6;
+}
+
+@media screen and (max-width:510px){
+    .form input, textarea{
+        width: 280px;
+    }
+}

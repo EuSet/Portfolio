@@ -1,0 +1,26 @@
+.project {
+    width: 400px;
+    background-color: #d96565;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image {
+    min-height: 100px;
+    width: 100%;
+    background-color: #b1a08e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    min-height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+}
+.view a{
+    text-decoration: none;
+}
