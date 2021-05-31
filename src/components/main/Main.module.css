@@ -1,6 +1,7 @@
 .main {
     height: 100vh;
-    background-color: darkturquoise;
+    background-color: #191919;
+    color: #757575;
 }
 
 .mainContainer {
@@ -11,9 +12,12 @@
 .photo {
     width: 200px;
     min-height: 300px;
-    background-color: antiquewhite;
+    border-radius: 10px;
 }
 
 .description {
-    background-color: antiquewhite;
+    background-color: #191919;
+    color: #fff;
+    font-family: 'Pattaya';
+    font-size: 25px;
 }
