@@ -1,0 +1,9 @@
+@mixin skillStyle ($width) {
+  width: $width;
+  //background-color: #4b4bb6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+}

@@ -1,0 +1,35 @@
+@import "../../sass/variables";
+.main {
+  height: 100vh;
+  background-color: $bgColor1;
+  color: #757575;
+
+  .mainContainer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .description {
+      background-color: $bgColor1;
+      color: $textColor;
+      font-size: 25px;
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 35px;
+        }
+      }
+    }
+
+    .photo {
+      max-width: 200px;
+      min-height: 300px;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+
+
+
+
+

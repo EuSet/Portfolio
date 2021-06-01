@@ -1,5 +1,5 @@
 import React from "react"
-import m from './Main.module.css'
+import m from './Main.module.scss'
 import c from '../styles/Container.module.css'
 import mainPhoto from "../../imges/Main.jpg"
 
