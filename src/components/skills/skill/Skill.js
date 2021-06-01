@@ -8,7 +8,7 @@ export const Skill = (props) => {
                 <img src={props.icon}/>
             </i>
         </div>
-        <div> {props.title}</div>
+        <div className={s.title}>{props.title}</div>
         <div>{props.desc}</div>
     </div>
 }

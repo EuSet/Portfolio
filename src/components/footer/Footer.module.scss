@@ -1,0 +1,18 @@
+@import "src/sass/variables";
+.footer {
+    min-height: inherit;
+    background-color: $bgColor1;
+    .footerContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .links {
+            width: 280px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+

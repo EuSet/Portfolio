@@ -1,5 +1,5 @@
 import React from "react"
-import style from './Contacts.module.css'
+import style from './Contacts.module.scss'
 import c from '../styles/Container.module.css'
 import {Title} from "../../common/Title";
 
@@ -9,9 +9,9 @@ export const Contacts = () => {
             <Title title={'Contacts'}/>
             <div className={style.form}>
                 <form>
-                    <div><input type="text" /></div>
-                    <div><input type="text" /></div>
-                    <div><textarea/></div>
+                    <div><input placeholder={'Name'} /></div>
+                    <div><input placeholder={'Email'} /></div>
+                    <div><textarea placeholder={'Your message'}/></div>
                 </form>
             </div>
             <div><button className={style.sendBtn}>Send</button></div>

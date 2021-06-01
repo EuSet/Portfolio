@@ -6,18 +6,21 @@ import {Title} from "../../common/Title";
 import redux from "./../../imges/redux.png"
 import react from "./../../imges/react.png"
 import typescript from "./../../imges/typescript.png"
+import javascript from "./../../imges/javascript.png"
+import css from "./../../imges/css.png"
+import html from "./../../imges/html.png"
 
 export const Skills = () => {
     return <div className={s.skills}>
         <div className={`${c.container} ${s.skillsContainer}`}>
             <Title title={'My Skills'}/>
             <div className={s.skillList}>
-                <Skill icon={react} title={'React'} desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}/>
-                <Skill icon={redux} title={'Redux'} desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}/>
-                <Skill icon={typescript} title={'Typescript'} desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}/>
-                <Skill title={'React'} desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}/>
-                <Skill title={'React'} desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}/>
-                <Skill title={'React'} desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}/>
+                <Skill icon={react} title={'React'}/>
+                <Skill icon={redux} title={'Redux'}/>
+                <Skill icon={javascript} title={'Javascript'}/>
+                <Skill icon={typescript} title={'Typescript'}/>
+                <Skill icon={css} title={'CSS'}/>
+                <Skill icon={html} title={'HTML'}/>
             </div>
         </div>
     </div>

@@ -31,12 +31,17 @@
     .view {
       min-height: 40px;
       width: 100px;
-      background-color: cadetblue;
+      background-color: $bgColor2;
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
       z-index: 1;
+      opacity: 0.6;
+      color:$textColor;
+      &:hover{
+        opacity: 0.9;
+      }
     }
 
     a {

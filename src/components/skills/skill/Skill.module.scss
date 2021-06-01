@@ -1,8 +1,12 @@
 @import "../../../sass/mixins.scss";
+@import "src/sass/variables";
+
 .skill {
-    @include skillStyle(30%);
-}
-.icon {
+  @include skillStyle(30%);
+  @media screen and (max-width: 900px){
+    @include skillStyle(250px);
+  }
+  .icon {
     //width: 50px;
     //min-height: 50px;
     //background-color: cadetblue;
@@ -10,7 +14,7 @@
     height: 90px;
     width: 90px;
     margin: 0 auto 30px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     display: block;
     line-height: 80px;
     font-size: 30px;
@@ -18,18 +22,18 @@
     transform: rotate(45deg);
     transform-origin: center;
     position: relative;
-    .i{
-        transform: rotate(-45deg);
-        position:absolute;
-        bottom: 0;
-        left: 10px;
-        right: 0;
-        top:10px;
+
+    .i {
+      transform: rotate(-45deg);
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      right: 0;
+      top: 10px;
 
     }
-}
-@media screen and (max-width:900px){
-    .skill {
-        @include skillStyle(250px);
-    }
+  }
+  .title{
+    font-size: 25px;
+  }
 }
