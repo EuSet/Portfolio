@@ -3,6 +3,9 @@
 .contacts {
   height: 60vh;
   background-color: $bgColor2;
+  @media screen and (max-height: 375px) {
+    height: 100vh;
+  }
 
   .contactsContainer {
     flex-direction: column;
