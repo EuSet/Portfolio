@@ -11,7 +11,10 @@ export const Main = () => {
                 <h1>I am Eugene Setsko</h1>
                 <p>Frontend developer</p>
             </div>
+            <div className={m.photoWrap}>
             <div><img className={m.photo} src={mainPhoto} alt={'#'}/></div>
+            <span className={m.span}></span>
+            </div>
         </div>
     </div>
 }
