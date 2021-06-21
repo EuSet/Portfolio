@@ -2,7 +2,7 @@ import React from "react"
 import s from "./Skill.module.scss"
 
 export const Skill = (props) => {
-    return <div className={s.skill}>
+    return <div data-aos="zoom-in" className={s.skill}>
         <div className={s.icon}>
             <i className={s.i}>
                 <img src={props.icon}/>

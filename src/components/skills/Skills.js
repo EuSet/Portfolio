@@ -11,7 +11,7 @@ import css from "./../../imges/css.png"
 import html from "./../../imges/html.png"
 
 export const Skills = () => {
-    return <div className={s.skills}>
+    return <div id={'Skills'} className={s.skills}>
         <div className={`${c.container} ${s.skillsContainer}`}>
             <Title title={'My Skills'}/>
             <div className={s.skillList}>

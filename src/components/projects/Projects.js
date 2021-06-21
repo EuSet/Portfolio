@@ -13,7 +13,7 @@ export const Projects = () => {
     const toDoList = {
         backgroundImage: `url(${todolist})`,
     }
-    return <div className={p.projects}>
+    return <div id={'Projects'} className={p.projects}>
         <div className={`${c.container} ${p.projectsContainer}`}>
             <Title title={'My Projects'}/>
             <div className={p.projectList}>

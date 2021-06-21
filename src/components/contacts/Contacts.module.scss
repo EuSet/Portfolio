@@ -1,7 +1,7 @@
 @import "src/sass/variables";
 
 .contacts {
-  height: 60vh;
+  height: 80vh;
   background-color: $bgColor2;
   @media screen and (max-height: 375px) {
     height: 100vh;
@@ -24,18 +24,53 @@
         padding: 15px 15px;
         margin-bottom: 10px;
         border-radius: 0;
+        color: #fd4766;
+        letter-spacing: 2px;
         @media screen and (max-width: 620px) {
           width: 280px;
         }
       }
+
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus,
+      input:-webkit-autofill:active {
+        transition: background-color 5000s ease-in-out 0s;
+      }
+      -webkit-text-fill-color: $textColor !important;
     }
+
     .sendBtn {
       min-height: 30px;
       width: 100px;
-      background:$titleColor;
+      background: $titleColor;
       border-radius: 5px;
       color: $textColor;
       cursor: pointer;
+      &:hover {
+        animation: bounce 1s;
+      }
     }
+    .btnWrap{
+      text-align: center;
+    }
+
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 }

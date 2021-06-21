@@ -3,4 +3,7 @@
 .header{
     height: 80px;
     background-color: $bgColor2;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
