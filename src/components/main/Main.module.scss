@@ -4,7 +4,7 @@
   height: 100vh;
   background-color: $bgColor1;
   color: #757575;
-  @media screen and (max-width: 360px){
+  @media screen and (max-width: 360px) {
     height: 110vh;
   }
 
@@ -20,6 +20,12 @@
   .mainContainer {
     justify-content: space-around;
     flex-wrap: wrap;
+    @media screen and (max-width: 400px) {
+      & {
+        padding-top: 70px;
+      }
+    }
+
 
     .description {
       background-color: $bgColor1;
@@ -28,11 +34,12 @@
       letter-spacing: 4px;
       @media screen and (max-width: 812px) {
         & h1 {
-          font-size: 35px;
+          font-size: 25px;
           letter-spacing: 1px;
         }
       }
     }
+
     &:nth-child(3n) {
       span {
         font-size: 25px;
@@ -54,7 +61,8 @@
           max-width: 150px;
           min-height: 200px;
         }
-        &:hover{
+
+        &:hover {
           transform: scale(1.1);
           transition: 1s;
         }
