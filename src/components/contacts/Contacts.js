@@ -9,6 +9,7 @@ export const Contacts = () => {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
     const [error, setError] = useState('')
+    const [sent, setSent] = useState('')
     function sendEmail(e) {
         e.preventDefault();
         if(!name || !email || !message){
@@ -24,6 +25,13 @@ export const Contacts = () => {
                 console.log(error.text);
             });
             e.target.reset()
+            setSent('Message sent')
+            setTimeout(() => {
+                setSent('')
+            }, 2000)
+            setName('')
+            setEmail('')
+            setMessage('')
         }
     }
     return <div id={'Contacts'} className={style.contacts}>
@@ -33,6 +41,7 @@ export const Contacts = () => {
                  data-aos-anchor-placement="center-bottom" className={style.form}>
                 <form onSubmit={sendEmail}>
                     {error && <span>{error}</span>}
+                    {sent && <div className={style.message}><span>{sent}</span></div>}
                     <div><input value={name} onChange={(e) => {
                         setName(e.target.value)
                         setError('')

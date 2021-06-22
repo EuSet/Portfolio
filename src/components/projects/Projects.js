@@ -17,8 +17,18 @@ export const Projects = () => {
         <div className={`${c.container} ${p.projectsContainer}`}>
             <Title title={'My Projects'}/>
             <div className={p.projectList}>
-                <Project style={socNetwork} title={'Social Network'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'}/>
-                <Project style={toDoList} title={'To Do List'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'}/>
+                <Project
+                    style={socNetwork}
+                    href={'https://euset.github.io/Social_Network/'}
+                    title={'Social Network'}
+                    description={'Libraries: React, Redux. ' +
+                    'Technologies: TypeScript, function \'connect\', thunk, HOC, hooks, some class components, axios, storybook, redux-form'}/>
+                <Project
+                    style={toDoList}
+                    href={'https://euset.github.io/ToDoList/'}
+                    title={'To Do List'}
+                    description={'Libraries: React, Redux.' +
+                    ' Technologies: TypeScript, hooks, thunk, axios, unit-tests, storybook, material-ui, formik'}/>
 
             </div>
         </div>
