@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.058a1aea.chunk.css",
-    "main.js": "/Portfolio/static/js/main.be01d570.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.be01d570.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.10c25129.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7c8e41ed.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7c8e41ed.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.8de6d731.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8de6d731.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/Portfolio/static/css/2.ae9e5f60.chunk.css",
@@ -12,9 +12,11 @@
     "static/js/3.92ce8c30.chunk.js.map": "/Portfolio/static/js/3.92ce8c30.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "/Portfolio/static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.058a1aea.chunk.css.map": "/Portfolio/static/css/main.058a1aea.chunk.css.map",
+    "static/css/main.10c25129.chunk.css.map": "/Portfolio/static/css/main.10c25129.chunk.css.map",
     "static/js/2.f54db041.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f54db041.chunk.js.LICENSE.txt",
     "static/media/Main.2cb3763d.jpg": "/Portfolio/static/media/Main.2cb3763d.jpg",
+    "static/media/cardGame.f3f219cc.jpg": "/Portfolio/static/media/cardGame.f3f219cc.jpg",
+    "static/media/react-native-logo.3b1ff34d.jpg": "/Portfolio/static/media/react-native-logo.3b1ff34d.jpg",
     "static/media/socialNetwork.071b4f95.jpg": "/Portfolio/static/media/socialNetwork.071b4f95.jpg",
     "static/media/todolist.22d859a4.jpg": "/Portfolio/static/media/todolist.22d859a4.jpg"
   },
@@ -22,7 +24,7 @@
     "static/js/runtime-main.8de6d731.js",
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.f54db041.chunk.js",
-    "static/css/main.058a1aea.chunk.css",
-    "static/js/main.be01d570.chunk.js"
+    "static/css/main.10c25129.chunk.css",
+    "static/js/main.7c8e41ed.chunk.js"
   ]
 }
